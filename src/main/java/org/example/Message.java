@@ -13,7 +13,8 @@ public enum Message {
     LOWER("Your number is LOWER than the one you are trying to guess"),
     TRY_AGAIN("Please try again"),
     GUESSED("You guessed it!"),
-    NOT_GUESSED("Sorry you didn't guess the number, the answer was: ");
+    NOT_GUESSED("Sorry you didn't guess the number, the answer was: "),
+    ANSWER("The number you were looking for is: ");
 
     private static final Message[] VALUES = values();
 

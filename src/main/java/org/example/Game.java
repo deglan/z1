@@ -17,6 +17,7 @@ public class Game {
 
             if (i == 5) {
                 System.out.println(Message.NOT_GUESSED.getMessage() + numberToGuess);
+                System.out.println(Message.ANSWER.getMessage() + numberToGuess);
             } else if (playerGuess == numberToGuess) {
                 System.out.println(Message.GUESSED.getMessage());
                 break;
